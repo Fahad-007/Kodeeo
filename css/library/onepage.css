@@ -25,7 +25,7 @@
 .dark #header.full-header.border-full-header #header-wrap,
 #header.dark.full-header.border-full-header #header-wrap { border-bottom-color: rgba(255,255,255,0.15) !important; }
 
-#header.transparent-header:not(.sticky-header) #header-wrap { background-color: rgba(255,255,255,0.7)!important;}
+#header.transparent-header:not(.sticky-header) #header-wrap { background-color: rgba(255,255,255,1)!important;}
 
 #header.transparent-header + #slider,
 #header.transparent-header + #page-title.page-title-parallax,
@@ -126,3 +126,8 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 	margin-bottom: 25px;
 }
 
+
+.side-panel-trigger i:hover{
+	color: #002060;
+	transition: all .3s;
+}
